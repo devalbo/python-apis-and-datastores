@@ -1,0 +1,45 @@
+
+Goals
+- make students comfortable with asking questions about how they are accessing their data
+- give students a broad survey of what is possible and enough concepts that they can dig into whatever might be applicable to their environment
+- feel empowered - you are in charge of your data, In Soviet Russia, your data is is charge of you
+- threee stages: get it working, get it working right, get it working quickly
+  - focus here on making it possible to "get it working" by providing samples for different methods of data access
+  - learn concepts that enable asking more informed questions when you undertake a data project
+- "A beginning is a very delicate time" - Dune quote - the way you think about accessing your data influences the rest of your project
+  - two phases of a software process to consider: development and operations
+  - here, we want to be comfortable with development with a mind towards adapting what we develop into something that
+    other people won't regret we wrote...
+
+
+What is a datastore?
+- place where data is stored... what does this mean?
+- way to abstract "storage details" from an application
+  - lots of different concerns/use cases result in lots of different ways to read and write data
+- does this matter? yes and no... if you're reading data, there are some things you might care about:
+  - where it comes from
+  - what its "shape" is
+  - performance/storage
+- examples:
+  - file
+  - SQL databases
+  - No-SQL databases
+  - API
+
+
+What is an API?
+- stands for Application Programming Interface
+- in short, a way for a program (application) to talk to another program programmatically
+  - memory based (e.g programs importing logic/capabilities from other programs)
+    - importing libraries
+    - talking to the operating system
+  - network level protocols (difference between protocol and API... we'll pretend there are none for the sake of this
+    discussion, but I'm happy to discuss more offline)
+    - standard APIs (e.g. HTTP, ODBC, FTP, etc.)
+  - custom ways to access functionality exposed via networking protocols
+    - typically data you might get over the Internet for a certain dataset or website, tailored for accessing that content
+    - formats are typically JSON or XML
+
+
+Great... why aren't we programming yet?
+
