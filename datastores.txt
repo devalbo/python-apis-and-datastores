@@ -38,8 +38,23 @@ What is an API?
     - standard APIs (e.g. HTTP, ODBC, FTP, etc.)
   - custom ways to access functionality exposed via networking protocols
     - typically data you might get over the Internet for a certain dataset or website, tailored for accessing that content
-    - formats are typically JSON or XML
+    - this brings us to data formats (which applies to files as well)
 
 
-Great... why aren't we programming yet?
+Data Formats
+- assumes you have access to your "pile" of data
+- formats are how you turn that "pile" into something intelligible
+  - CSV
+  - JSON
+  - XML
+  - XLS
+  - binary
+  - roll your own
+- based on format, you will probably want some form of interpreter
+
+
+Great... where's the code?
+
+
+
 
