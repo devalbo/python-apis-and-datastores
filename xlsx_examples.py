@@ -1,5 +1,5 @@
 
-def read_workbook_with_pandas():
+def read_workbook_sheet_titles_with_pandas():
     import pandas as pd
 
     xl_io = pd.ExcelFile("DataStores/all_data.xlsx")
@@ -53,7 +53,7 @@ def read_xlsx_with_headers():
 
 
 if __name__ == "__main__":
-    # read_workbook_with_pandas()
+    # read_workbook_sheet_titles_with_pandas()
     # read_worksheets_with_pandas()
     # plot_with_matplotlib()
     # read_xlsx_with_headers()

@@ -31,9 +31,8 @@ def plot_with_matplotlib():
     some_close_prices = pd.read_csv("DataStores/close_data.csv",
                                     index_col=0, parse_dates=True)
 
-    # plot "normalized" or "standardized" time series
-    ((some_close_prices - some_close_prices.mean()) /
-     some_close_prices.std()).plot(figsize=(15, 7))
+    ((some_close_prices - some_close_prices.mean()) / some_close_prices.std()).plot(figsize=(15, 7))
+    plt.figure(1).canvas.set_window_title("Normalized time series")
     plt.show()
 
 

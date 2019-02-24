@@ -29,6 +29,7 @@ def download_data_from_url_as_json():
 
     DOWNLOAD_URL = f"https://api.stlouisfed.org/fred/series/observations?series_id=UNRATE&api_key={BOOTCAMP_FRED_API_KEY}" + "&file_type=json"
     print(DOWNLOAD_URL)     # take a look in Firefox
+    print()
 
     response = requests.get(DOWNLOAD_URL)
 
@@ -105,7 +106,7 @@ if __name__ == "__main__":
     # download_data_from_url_as_json()
     # download_and_save_json_data_from_url()
     # download_json_data_into_dataframe_and_process()
-    # use_fred_api()
+    # pull_from_fred_api()
 
     pass
 
