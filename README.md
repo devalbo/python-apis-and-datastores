@@ -2,7 +2,7 @@
 
 ![Let's avoid slides](https://assets.rbl.ms/17493360/980x.png)
 
-## Goals
+## Lesson Goals
 - Empowerment 
   - In Soviet Russia, your data is in charge of you
   - With Python, you are in charge of your data 
