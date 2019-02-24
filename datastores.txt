@@ -13,7 +13,7 @@ Goals
 
 
 What is a datastore?
-- place where data is stored... what does this mean?
+- place where data is stored, organized, and persisted... what does this mean?
 - way to abstract "storage details" from an application
   - lots of different concerns/use cases result in lots of different ways to read and write data
 - does this matter? yes and no... if you're reading data, there are some things you might care about:
@@ -54,7 +54,9 @@ Data Formats
 
 
 Great... where's the code?
-
-
-
+* csv_examples.py
+* xlsx_examples.py
+* db_examples.py
+* api_examples.py
+* other sources of data - web pages (see Web Scraping talk later)
 

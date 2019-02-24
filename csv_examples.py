@@ -1,10 +1,17 @@
 
-def read_with_file_open():
-    close_data = open("./DataStores/close_data.csv", "r")
-    for l in close_data.readlines():
-        print(l)
+def read_lines_with_file_open():
+    with open("./DataStores/close_data.csv", "r") as close_data:
+        for l in close_data.readlines():
+            print(l)
 
-    close_data.close()
+
+def read_values_with_file_open():
+    with open("./DataStores/close_data.csv", "r") as close_data:
+        for l in close_data.readlines():
+            print(l.strip())
+            values = l.strip().split(",")
+            print(values)
+            print()
 
 
 def read_with_pandas():
@@ -31,7 +38,8 @@ def plot_with_matplotlib():
 
 
 if __name__ == "__main__":
-    # read_with_file_open()
+    # read_lines_with_file_open()
+    # read_values_with_file_open()
     # read_with_pandas()
     # plot_with_matplotlib()
 
