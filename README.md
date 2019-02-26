@@ -61,6 +61,13 @@
 
 
 ## Code, please
+### Dependencies/Package Requirements
+- `pip install pandas`
+- `pip install numpy`
+- `pip install sqlite3`
+- `pip install matplotlib`
+- `pip install seaborn`
+- `pip install requests`
 ### Sanity check
 - [derp.py](derp.py)
 ### Source examples
